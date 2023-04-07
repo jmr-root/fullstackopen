@@ -1,0 +1,17 @@
+the browser makes requests (GET) to the server for:
+https://studies.cs.helsinki.fi/exampleapp/notes
+https://studies.cs.helsinki.fi/exampleapp/main.css
+https://studies.cs.helsinki.fi/exampleapp/main.js
+
+Then load the data JSON called from the .js and return the content of the OBJECT.
+
+When we insert a value in the input form, this is sent by POST resquest to:
+https://studies.cs.helsinki.fi/exampleapp/new_note
+
+The server creates a new note with the given data and add the new note to the list of notes.
+
+The server sends a response back to the browser with the updated list.
+
+The browser receives the updated list of notes and displays it on the page.
+
+For this case, after the refresh of the page, it makes all the requests (GET) again of the files notes, cs, js, json.

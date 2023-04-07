@@ -1,0 +1,19 @@
+the browser makes requests (GET) to the server for:
+https://studies.cs.helsinki.fi/exampleapp/spa
+https://studies.cs.helsinki.fi/exampleapp/main.css
+https://studies.cs.helsinki.fi/exampleapp/main.js
+
+Then load the data JSON called from the .js and return the content of the OBJECT.
+
+When we insert a value in the input form, this is sent by POST resquest to:
+https://studies.cs.helsinki.fi/exampleapp/new_note_spa.
+
+This note POST is sent using JAVASCRIPT code. First, either create a function that stores 
+the note in a variable and then pushes it to the array.
+
+Then the data is sent (JSON-string) with an HTTP POST request with a Content-type header. 
+They are drawn again by the redrawNotes()function.
+
+
+
+

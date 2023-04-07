@@ -1,0 +1,9 @@
+the browser makes requests (GET) to the server for:
+https://studies.cs.helsinki.fi/exampleapp/spa
+https://studies.cs.helsinki.fi/exampleapp/main.css
+https://studies.cs.helsinki.fi/exampleapp/spa.js
+
+Then load the data JSON called from the .js and return the content of the OBJECT.
+
+In this case, the browser doesn´t need to refresh the site because the data is sent
+using Javascript code.
